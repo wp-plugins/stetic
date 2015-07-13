@@ -4,7 +4,7 @@ Plugin Name: Stetic
 Plugin URI: https://www.stetic.com/
 Description: Adds real-time Web Analytics from Stetic with event tracking of all important actions to Wordpress. It comes with a dashboard to show you the important reports and numbers.
 Author: Stetic
-Version: 1.0.0
+Version: 1.0.1
 Author URI: https://www.stetic.com/
 */
 

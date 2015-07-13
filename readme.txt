@@ -2,7 +2,7 @@
 Contributors: Stetic
 Tags: analytics, statistics, stats, tracking, widget, pageviews, visits, counter, visitors
 Requires at least: 3.3
-Tested up to: 4.1
+Tested up to: 4.2
 Stable tag: trunk
 
 
