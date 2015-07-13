@@ -4,7 +4,7 @@ Plugin Name: Stetic
 Plugin URI: https://www.stetic.com/
 Description: Adds real-time Web Analytics from Stetic with event tracking of all important actions to Wordpress. It comes with a dashboard to show you the important reports and numbers.
 Author: Stetic
-Version: 1.0.1
+Version: 1.0.2
 Author URI: https://www.stetic.com/
 */
 
@@ -121,7 +121,7 @@ if(!class_exists('Stetic'))
 				<a class="nav-tab<?php echo (!$_GET['tab'] || $_GET['tab'] == "stats") ? " nav-tab-active" : ""; ?>" href="admin.php?page=stetic/stetic.php&amp;tab=stats">Stats</a>
 				<a class="nav-tab<?php echo ($_GET['tab'] == "settings") ? " nav-tab-active" : ""; ?>" href="options-general.php?page=stetic/stetic.php&amp;tab=settings"><?php echo __('Settings'); ?></a>
 			</h2>
-			<?
+			<?php
 		}
 		
 		public static function config_page()
@@ -185,7 +185,7 @@ if(!class_exists('Stetic'))
 					</form>
 					<br/><br/>
 					</div>
-				<?
+				<?php
 			}
 			else
 			{
@@ -258,7 +258,7 @@ if(!class_exists('Stetic'))
 					fs.statsPage();
 				});				
 				</script>
-				<?
+				<?php
 			}
 		}
 		
@@ -335,7 +335,7 @@ if(!class_exists('Stetic'))
 				fs.dashBoard();
 			});				
 			</script>
-			<?
+			<?php
 		}
 		
 		public static function tracking_code_header()
